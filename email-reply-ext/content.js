@@ -18,6 +18,9 @@ function creatAIButton() {
   button.innerHTML = "AI Reply";
   button.setAttribute("role", "button");
   button.setAttribute("data-tooltip", "Generate AI Reply");
+
+  button.style.borderRadius = "20px"; // adjust if needed
+  button.style.padding = "0 16px"; // optional for spacing
   return button;
 }
 
