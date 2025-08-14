@@ -1,4 +1,4 @@
-package com.ai_gemini.email_reply_generator;
+package com.ai_gemini.email_reply_generator.email_assistant;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
