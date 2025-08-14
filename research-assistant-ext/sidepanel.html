@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h2>Research Assistant</h2>
+            <p class="subtitle">Powered by Google Gemini</p>
+        </div>
+
+        <!-- Actions -->
+        <div class="card actions">
+            <button id="summarizeButton" class="primary-btn">
+                Summarize
+            </button>
+        </div>
+
+        <!-- Notes Section -->
+        <div class="card notes">
+            <h3>Research Notes</h3>
+            <textarea id="notes" placeholder="Write your notes here..."></textarea>
+            <button id="saveNotesButton" class="secondary-btn">
+                Save Notes
+            </button>
+        </div>
+
+        <!-- Results -->
+        <div class="card" id="results">
+            <h3>Summary Results</h3>
+            <div class="results-content">No results yet...</div>
+        </div>
+        
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>

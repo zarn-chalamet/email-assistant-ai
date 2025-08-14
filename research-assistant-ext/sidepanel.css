@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #1a73e8;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* Card Style */
+.card {
+    background-color: white;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Buttons */
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.primary-btn {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #1557b0;
+}
+
+.secondary-btn {
+    background-color: #f1f3f4;
+    color: #333;
+}
+
+.secondary-btn:hover {
+    background-color: #e2e5e7;
+}
+
+/* Notes */
+.notes h3 {
+    margin-bottom: 8px;
+}
+
+.notes textarea {
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: vertical;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+/* Results */
+#results h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.results-content {
+    color: #777;
+    font-size: 0.85rem;
+    margin-top: 6px;
+}
+
+/* Result Items */
+.result-item {
+    background-color: #eef3fc; /* soft blue background for results */
+    border-left: 4px solid #1a73e8; /* accent line to highlight result */
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+}
+
+.result-item:hover {
+    background-color: #e1ebfc; /* slightly darker on hover */
+}
+
+.result-content {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #1a1a1a;
+    word-wrap: break-word;
+    white-space: pre-wrap; /* preserve line breaks from text */
+}
+
